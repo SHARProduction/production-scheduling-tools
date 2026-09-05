@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "prep",
+      "duration": 2,
+      "dependencies": []
+    },
+    {
+      "id": "shoot",
+      "duration": 1,
+      "dependencies": [
+        "prep"
+      ]
+    },
+    {
+      "id": "edit",
+      "duration": 3,
+      "dependencies": [
+        "shoot"
+      ]
+    },
+    {
+      "id": "delivery",
+      "duration": 0,
+      "dependencies": [
+        "edit"
+      ],
+      "milestone": true
+    }
+  ]
+}

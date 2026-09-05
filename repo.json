@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "production-scheduling-tools",
+  "family": "scheduling",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w01-05",
+      "slug": "dependency-critical-path-checker",
+      "name": {
+        "en": "Dependency Critical Path Checker",
+        "ru": "Проверка критического пути зависимостей"
+      },
+      "code_license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "asset_id": "shar-pe400-w01-06",
+      "slug": "shoot-day-capacity-planner",
+      "name": {
+        "en": "Shoot Day Capacity Planner",
+        "ru": "Планировщик вместимости съёмочного дня"
+      },
+      "code_license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    }
+  ]
+}

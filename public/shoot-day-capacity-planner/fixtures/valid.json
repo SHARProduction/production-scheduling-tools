@@ -1,0 +1,16 @@
+{
+  "start": "08:00",
+  "end": "18:00",
+  "setups": [
+    {
+      "id": "s1",
+      "durationMinutes": 240,
+      "bufferMinutes": 30
+    },
+    {
+      "id": "s2",
+      "durationMinutes": 300,
+      "moveMinutes": 30
+    }
+  ]
+}
